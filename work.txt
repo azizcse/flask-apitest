@@ -1,0 +1,13 @@
+1. Install python
+2.install pip
+3.Install virtualenv -> pip install virtualenv
+4.Install flask -> pip install flask
+5.create project folder -> mkdir project
+6. env setup -> py -m venv venv
+7. activate virtual env
+8. install flask inside virtual env
+9. install flask-wtf -> pip install flask-wtf
+10. create file -> .flaskenv
+11. pip install python-dotenv
+12. create requirements.txt-> pip freeze > requirements.txt
+13. install package from txt -> pip install -r requirements.txt
