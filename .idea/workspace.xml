@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57a1ef7e-3c72-43f6-a30d-5dda188fec8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/uta-logo-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/uta-logo-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/uta-logo-250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/uta-logo-350.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/uta-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/includes/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/templates/index.html" afterDir="false" />
+    <list default="true" id="57a1ef7e-3c72-43f6-a30d-5dda188fec8f" name="Default Changelist" comment="added config">
+      <change afterPath="$PROJECT_DIR$/application/templates/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,13 +34,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\2020\python-proj\enrolment\application\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2020\python-proj\enrolment\application" />
+      <recent name="D:\2020\python-proj\enrolment\application\templates\includes" />
       <recent name="D:\2020\python-proj\enrolment" />
       <recent name="D:\2020\python-proj\enrolment\application\templates" />
       <recent name="D:\2020\python-proj\enrolment\application\static" />
@@ -61,7 +62,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583369602376</updated>
-      <workItem from="1583369606138" duration="3888000" />
+      <workItem from="1583369606138" duration="5269000" />
+      <workItem from="1583682053300" duration="1224000" />
+      <workItem from="1584431315492" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="added config">
       <created>1583372517435</created>
@@ -77,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583372541367</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added config">
+      <created>1583373561719</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583373561719</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +106,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1583369965012" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1583372539705">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584441529374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-316.1920.1040@0.0.1366.728" timestamp="1583372539705" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1583372546971">
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-316.1920.1040@0.0.1366.728" timestamp="1584441529374" />
+    <state x="521" y="78" key="RollbackChangesDialog" timestamp="1583374445920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-316.1920.1040@0.0.1366.728" timestamp="1583372546971" />
+    <state x="521" y="78" key="RollbackChangesDialog/0.0.1366.728/-1920.-316.1920.1040@0.0.1366.728" timestamp="1583374445920" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1584441619936">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-316.1920.1040@0.0.1366.728" timestamp="1584441619936" />
   </component>
 </project>
